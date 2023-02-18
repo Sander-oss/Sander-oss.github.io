@@ -112,7 +112,7 @@ let transactionData = [];
 let projectsDone = [];
 let xpData = [];
 
-let uname = "harlet";
+let uname = "SanderAulIT";
 let userid;
 let lastActivity;
 
