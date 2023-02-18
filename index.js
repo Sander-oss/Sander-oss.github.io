@@ -520,10 +520,10 @@ async function queryTransactions(userid, offset) {
     } else {
       transactionData.forEach((element) => {
         switch (element.type) {
-          case "up":
+          case "down":
             auditsDoneByYouXp += element.amount;
             break;
-          case "down":
+          case "up":
             auditsDoneForYouXp += element.amount;
             break;
           default:
