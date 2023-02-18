@@ -112,7 +112,7 @@ let transactionData = [];
 let projectsDone = [];
 let xpData = [];
 
-let uname = "SanderAulIT";
+let uname = "harlet";
 let userid;
 let lastActivity;
 
@@ -575,4 +575,4 @@ const clearData = () => {
   d3.select("#xpprogression").select("svg").remove();
 };
 
-defaultMain("SanderAulIT");
+defaultMain("harlet");
