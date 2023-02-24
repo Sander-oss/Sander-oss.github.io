@@ -379,8 +379,8 @@ const buildHtml = () => {
 };
 
 const buildAuditRatios = () => {
-  const rect2Length = auditsXpDoneForSvg;
-  const rect1Length = auditsXpDoneBySvg;
+  const rect1Length = auditsXpDoneForSvg;
+  const rect2Length = auditsXpDoneBySvg;
   const maxLength = 250;
   const rect1Normalized =
     (rect1Length / Math.max(rect1Length, rect2Length)) * maxLength;
@@ -433,6 +433,7 @@ const buildAuditRatios = () => {
   svg2.appendChild(rect2Shape);
   rect2.appendChild(svg2);
   container.appendChild(rect2);
+  container.insertBefore(rect2, rect1);
 
   document.getElementById("auditgraph").appendChild(container);
 };
