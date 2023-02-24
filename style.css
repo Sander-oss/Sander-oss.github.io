@@ -6,7 +6,7 @@ body {
 }
 
 html {
-  *: url('Background.png');
+  background-image: url('cover.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -29,14 +29,14 @@ html {
     background-color: #f2f2f2;
     padding: 20px;
     background-color: aliceblue;
-    *: url("Background.png");
+    background-image: url("cover.jpg");
 }
   
 .userinfo {
     display: grid;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    *: url("Background.png");
+    background-image: url("cover.jpg");
     border: solid;
     border-radius: 3px;
     border-color: aliceblue;
@@ -57,7 +57,7 @@ html {
     display: grid;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    *: url("Background.png");
+    background-image: url("cover.jpg");
     border: solid;
     border-radius: 3px;
     border-color: aliceblue;
@@ -90,7 +90,7 @@ html {
 .levelinfo {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
-    *: url("Background.png");
+    background-image: url("cover.jpg");
     border: solid;
     border-radius: 3px;
     border-color: aliceblue;
@@ -99,7 +99,7 @@ html {
 .xpprogression {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
-    *: url("Background.png");
+    background-image: url("cover.jpg");
     border: solid;
     border-radius: 3px;
     border-color: aliceblue;
@@ -108,7 +108,7 @@ html {
 .xpearnedbyproject {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
-    *: url("Background.png");
+    background-image: url("cover.jpg");
     border: solid;
     border-radius: 3px;
     border-color: aliceblue;
