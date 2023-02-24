@@ -379,8 +379,8 @@ const buildHtml = () => {
 };
 
 const buildAuditRatios = () => {
-  const rect1Length = auditsXpDoneForSvg;
-  const rect2Length = auditsXpDoneBySvg;
+  const rect2Length = auditsXpDoneForSvg;
+  const rect1Length = auditsXpDoneBySvg;
   const maxLength = 250;
   const rect1Normalized =
     (rect1Length / Math.max(rect1Length, rect2Length)) * maxLength;
