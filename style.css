@@ -5,6 +5,14 @@ body {
     margin: 0;
 }
 
+html {
+  background-image: url('Background.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 #preloader {
   background: #000 url("preloader.gif") no-repeat center center;
   background-size: 15%;
