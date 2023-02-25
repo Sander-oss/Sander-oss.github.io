@@ -1,7 +1,7 @@
   body {
       font-family: Arial, sans-serif;
       background-color: aliceblue;
-      background-image: url("Background.png");
+      background-image: url("cover.jpg");
       margin: 0;
   }
 
@@ -28,6 +28,7 @@
       grid-row: 1 / 2;
       border: solid;
       border-radius: 3px;
+      border-color: aliceblue;
   }
 
   #upic {
@@ -35,7 +36,7 @@
     height: 200px;
   }
 
-  #uinfo {
+  #uinfo { 
     text-align: left;
     grid-column: 2 / 3;
     margin-left: 20px;
@@ -45,7 +46,7 @@
       display: grid;
       grid-column: 2 / 3;
       grid-row: 1 / 2;
-      
+      border-color: aliceblue;
       border: solid;
       border-radius: 3px;
   }

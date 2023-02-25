@@ -394,8 +394,8 @@ const buildAuditRatios = () => {
   rect1.id = "rect1";
 
   const svg1 = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  svg1.setAttribute("width", "250");
-  svg1.setAttribute("height", "20");
+  svg1.setAttribute("width", "420");
+  svg1.setAttribute("height", "42");
 
   const rect1Shape = document.createElementNS(
     "http://www.w3.org/2000/svg",
@@ -416,8 +416,8 @@ const buildAuditRatios = () => {
   rect2.id = "rect2";
 
   const svg2 = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  svg2.setAttribute("width", "250");
-  svg2.setAttribute("height", "20");
+  svg2.setAttribute("width", "420");
+  svg2.setAttribute("height", "42");
 
   const rect2Shape = document.createElementNS(
     "http://www.w3.org/2000/svg",
