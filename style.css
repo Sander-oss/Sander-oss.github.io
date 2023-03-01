@@ -1,7 +1,6 @@
   body {
       font-family: Arial, sans-serif;
-      background-color: aliceblue;
-      background-image: url("cover.jpg");
+      background-color: rgb(130, 197, 255);
       margin: 0;
   }
 
@@ -20,12 +19,14 @@
       grid-template-rows: auto auto auto;
       background-color: #f2f2f2;
       padding: 20px;
+      background-color: rgb(130, 197, 255);
   }
     
   .userinfo {
       display: grid;
       grid-column: 1 / 2;
       grid-row: 1 / 2;
+      background-color: rgb(130, 197, 255);
       border: solid;
       border-radius: 3px;
       border-color: aliceblue;
@@ -40,6 +41,7 @@
     text-align: left;
     grid-column: 2 / 3;
     margin-left: 20px;
+    background-color: rgb(130, 197, 255);
   }
     
   .auditinfo {
@@ -49,6 +51,7 @@
       border-color: aliceblue;
       border: solid;
       border-radius: 3px;
+      background-color: rgb(130, 197, 255);
   }
   #auditgraph {
     grid-row: 2 / 3;
@@ -82,6 +85,7 @@
       border: solid;
       border-radius: 3px;
       border-color: aliceblue;
+      background-color: rgb(130, 197, 255);
   }
     
   .xpprogression {
@@ -91,6 +95,7 @@
       border: solid;
       border-radius: 3px;
       border-color: aliceblue;
+      background-color: rgb(130, 197, 255);
   }
     
   .xpearnedbyproject {
@@ -100,6 +105,7 @@
       border: solid;
       border-radius: 3px;
       border-color: aliceblue;
+      background-color: rgb(130, 197, 255);
   }
     
   .userinfo, .auditinfo, .levelinfo, .xpprogression, .xpearnedbyproject {
@@ -108,6 +114,7 @@
       color: #333;
       font-size: 18px;
       text-align: center;
+      background-color: rgb(130, 197, 255);
   }
     
   .userinfo:hover, .auditinfo:hover, .levelinfo:hover, .xpprogression:hover, .xpearnedbyproject:hover {
