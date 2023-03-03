@@ -23,7 +23,7 @@
   }
     
   .input {
-    align-self: center;
+    position: top;
   }
 
   .userinfo {
