@@ -1,6 +1,6 @@
   body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom, #33cb00, #1f9c00);
+      background: linear-gradient(to bottom, #33cb00, #7cefa6);
       margin: 0;
   }
 
@@ -18,7 +18,7 @@
       grid-template-columns: 1fr 1fr 0.5fr;
       grid-template-rows: auto auto auto;
       padding: 20px;
-      background: linear-gradient(to bottom, #33cb00, #1f9c00);
+      background: linear-gradient(to bottom, #33cb00, ##7cefa6);
   }
     
   .input {

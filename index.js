@@ -190,13 +190,13 @@ const buildXpEarnedByProject = () => {
   function yAxis(g) {
     g.attr("transform", `translate(${margin.left}, 0)`)
       .call(d3.axisLeft(y))
-      .attr("font-size", "20px");
+      .attr("font-size", "30px");
   }
 
   function xAxis(g) {
     g.attr("transform", `translate(0,${height - margin.bottom})`)
       .call(d3.axisBottom(x).tickFormat((i) => xpData[i][1]))
-      .attr("font-size", "20px")
+      .attr("font-size", "30px")
       .selectAll("text")
       .style("text-anchor", "end")
       .attr("dx", "-.8em")
