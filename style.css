@@ -1,6 +1,6 @@
   body {
       font-family: Arial, sans-serif;
-      background-color: rgb(130, 197, 255);
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
       margin: 0;
   }
 
@@ -135,18 +135,4 @@
     stroke: blue;
     stroke-width: 2px;
     fill: none;
-  }
-    
-  .skeleton {
-    animation: skeleton-loading 3s linear infinite alternate;
-  }
-
-  @keyframes skeleton-loading {
-    0% {
-      background-color: hsl(33, 100%, 56%);
-    }
-
-    100% {
-      background-color: hsl(249, 100%, 51%);
-    }
   }
