@@ -117,9 +117,6 @@
       background-color: rgb(130, 197, 255);
   }
     
-  .userinfo:hover, .auditinfo:hover, .levelinfo:hover, .xpprogression:hover, .xpearnedbyproject:hover {
-      background-color: #f2f2f2;
-  }
   #chart {
     width: 300px;
     height: 300px;
