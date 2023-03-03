@@ -18,7 +18,7 @@
       grid-template-columns: 1fr 1fr 0.5fr;
       grid-template-rows: auto auto auto;
       padding: 20px;
-      background: linear-gradient(to bottom, #40ff00, #1f9c00)
+      background: linear-gradient(to bottom, #40ff00, #1f9c00);
   }
     
   .input {
@@ -29,7 +29,7 @@
       display: grid;
       grid-column: 1 / 2;
       grid-row: 1 / 2;
-      background: linear-gradient(to bottom, #c6ebba, #7cefa6)
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
       border: solid;
       border-radius: 3px;
       border-color: aliceblue;
@@ -44,7 +44,7 @@
     text-align: left;
     grid-column: 2 / 3;
     margin-left: 20px;
-    background: linear-gradient(to bottom, #c6ebba, #7cefa6)
+    background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
     
   .auditinfo {
@@ -54,7 +54,7 @@
       border: solid;
       border-radius: 3px;
       border-color: whitesmoke;
-      background: linear-gradient(to bottom, #c6ebba, #7cefa6)
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
   #auditgraph {
     grid-row: 2 / 3;
@@ -88,7 +88,7 @@
       border: solid;
       border-radius: 3px;
       border-color: aliceblue;
-      background: linear-gradient(to bottom, #c6ebba, #7cefa6)
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
     
   .xpprogression {
@@ -98,7 +98,7 @@
       border: solid;
       border-radius: 3px;
       border-color: aliceblue;
-      background: linear-gradient(to bottom, #c6ebba, #7cefa6)
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
     
   .xpearnedbyproject {
@@ -108,7 +108,7 @@
       border: solid;
       border-radius: 3px;
       border-color: aliceblue;
-      background: linear-gradient(to bottom, #c6ebba, #7cefa6)
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
     
   .userinfo, .auditinfo, .levelinfo, .xpprogression, .xpearnedbyproject {
@@ -117,7 +117,7 @@
       color: #333;
       font-size: 18px;
       text-align: center;
-      background: linear-gradient(to bottom, #c6ebba, #7cefa6)
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
     
   #chart {
