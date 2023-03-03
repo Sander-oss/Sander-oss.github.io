@@ -413,7 +413,7 @@ const buildAuditRatios = () => {
   rect2Shape.setAttribute("y", "10");
   rect2Shape.setAttribute("width", rect2Normalized);
   rect2Shape.setAttribute("height", "80");
-  rect2Shape.setAttribute("fill", "darkgreen");
+  rect2Shape.setAttribute("fill", "green");
 
   svg2.appendChild(rect2Shape);
   rect2.appendChild(svg2);
