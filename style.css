@@ -25,7 +25,7 @@
   .input {
     align-self: center;
   }
-  
+
   .userinfo {
       display: grid;
       grid-column: 1 / 2;
@@ -52,9 +52,9 @@
       display: grid;
       grid-column: 2 / 3;
       grid-row: 1 / 2;
-      border-color: aliceblue;
       border: solid;
       border-radius: 3px;
+      border-color: aliceblue;
       background-color: rgb(130, 197, 255);
   }
   #auditgraph {
