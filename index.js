@@ -70,21 +70,6 @@ query ($id: Int ) {
       }
 }`;
 
-/* const totalXpRequest = `
-query ($projectName: String, $id: Int ) {
-    transaction(
-        where: {_and: [{user: {id: {_eq: $id}}},
-        {object: {name: {_eq: $projectName}}},
-        ]},
-        order_by: {amount: desc},
-        limit: 1) {
-        object {
-        name
-        }
-        amount
-        createdAt
-    }
-}`; */
 const totalXpRequest = `
 query ($projectName: String, $id: Int ) {
   transaction(
