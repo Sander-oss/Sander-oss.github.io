@@ -223,7 +223,7 @@ const buildNextLevelPieChart = () => {
   circle.setAttribute("cx", "50");
   circle.setAttribute("cy", "50");
   circle.setAttribute("r", r);
-  circle.setAttribute("fill", "lightgray");
+  circle.setAttribute("fill", "#7cefa6");
   circle.setAttribute("stroke", `green`);
   circle.setAttribute("stroke-width", "10");
   circle.setAttribute(
