@@ -22,6 +22,10 @@
       background-color: rgb(130, 197, 255);
   }
     
+  .input {
+    align-self: center;
+  }
+  
   .userinfo {
       display: grid;
       grid-column: 1 / 2;
