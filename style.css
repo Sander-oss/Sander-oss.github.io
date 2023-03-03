@@ -18,7 +18,7 @@
       grid-template-columns: 1fr 1fr 0.5fr;
       grid-template-rows: auto auto auto;
       padding: 20px;
-      background: linear-gradient(to bottom, #c6ebba, #7cefa6)
+      background: linear-gradient(to bottom, #40ff00, #1f9c00)
   }
     
   .input {
