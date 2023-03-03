@@ -18,7 +18,7 @@
       grid-template-columns: 1fr 1fr 0.5fr;
       grid-template-rows: auto auto auto;
       padding: 20px;
-      background: linear-gradient(to bottom, #33cb00, ##7cefa6);
+      background: linear-gradient(to bottom, #33cb00, #7cefa6);
   }
     
   .input {
@@ -32,7 +32,7 @@
       background: linear-gradient(to bottom, #c6ebba, #7cefa6);
       border: solid;
       border-radius: 3px;
-      border-color: aliceblue;
+      border-color: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
 
   #upic {
@@ -44,6 +44,7 @@
     text-align: left;
     grid-column: 2 / 3;
     margin-left: 20px;
+    border-color: linear-gradient(to bottom, #c6ebba, #7cefa6);
     background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
     
@@ -53,7 +54,7 @@
       grid-row: 1 / 2;
       border: solid;
       border-radius: 3px;
-      border-color: whitesmoke;
+      border-color: linear-gradient(to bottom, #c6ebba, #7cefa6);
       background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
   #auditgraph {
@@ -87,7 +88,7 @@
       
       border: solid;
       border-radius: 3px;
-      border-color: aliceblue;
+      border-color: linear-gradient(to bottom, #c6ebba, #7cefa6);
       background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
     
@@ -97,7 +98,7 @@
       
       border: solid;
       border-radius: 3px;
-      border-color: aliceblue;
+      border-color: linear-gradient(to bottom, #c6ebba, #7cefa6);
       background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
     
@@ -107,7 +108,7 @@
       
       border: solid;
       border-radius: 3px;
-      border-color: aliceblue;
+      border-color: linear-gradient(to bottom, #c6ebba, #7cefa6);
       background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
     
@@ -117,6 +118,9 @@
       color: #333;
       font-size: 18px;
       text-align: center;
+      border: solid;
+      border-radius: 3px;
+      border-color: linear-gradient(to bottom, #c6ebba, #7cefa6);
       background: linear-gradient(to bottom, #c6ebba, #7cefa6);
   }
     
