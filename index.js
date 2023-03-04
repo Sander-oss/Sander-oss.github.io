@@ -204,11 +204,11 @@ const buildNextLevelPieChart = () => {
     "http://www.w3.org/2000/svg",
     "circle"
   );
-  let r = 44;
-  circle.setAttribute("cx", "50");
+  let r = 42;
+  circle.setAttribute("cx", "80");
   circle.setAttribute("cy", "50");
   circle.setAttribute("r", r);
-  circle.setAttribute("fill", "#7cefa6");
+  circle.setAttribute("fill", "#b9eda7");
   circle.setAttribute("stroke", `green`);
   circle.setAttribute("stroke-width", "10");
   circle.setAttribute(
