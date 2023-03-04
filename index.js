@@ -218,8 +218,8 @@ const buildNextLevelPieChart = () => {
   circle.setAttribute("transform", "rotate(-90 50 50)");
 
   const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-  text.setAttribute("x", "50");
-  text.setAttribute("y", "84");
+  text.setAttribute("x", "80");
+  text.setAttribute("y", "54");
   text.setAttribute("fill", "black");
   text.setAttribute("text-anchor", "middle");
   text.innerHTML = level;
