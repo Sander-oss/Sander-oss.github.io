@@ -205,8 +205,8 @@ const buildNextLevelPieChart = () => {
     "circle"
   );
   let r = 42;
-  circle.setAttribute("cx", "80");
-  circle.setAttribute("cy", "50");
+  circle.setAttribute("cx", "100");
+  circle.setAttribute("cy", "100");
   circle.setAttribute("r", r);
   circle.setAttribute("fill", "#b9eda7");
   circle.setAttribute("stroke", `green`);
@@ -391,7 +391,7 @@ const buildAuditRatios = () => {
   rect1Shape.setAttribute("y", "10");
   rect1Shape.setAttribute("width", rect1Normalized);
   rect1Shape.setAttribute("height", "80");
-  rect1Shape.setAttribute("fill", "16ff16");
+  rect1Shape.setAttribute("fill", "#16ff16");
 
   svg1.appendChild(rect1Shape);
   rect1.appendChild(svg1);
