@@ -1,0 +1,142 @@
+  body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #33cb00, #7cefa6);
+      margin: 0;
+  }
+
+  #preloader {
+    background: #000 url("preloader.gif") no-repeat center center;
+    background-size: 15%;
+    height:100vh;
+    width:100%;
+    position: fixed;
+    z-index: 100;
+  }
+
+  .main-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 0.5fr;
+      grid-template-rows: auto auto auto;
+      padding: 20px;
+      background: linear-gradient(to bottom, #33cb00, #7cefa6);
+  }
+    
+  .input {
+    position: top;
+  }
+
+  .userinfo {
+      display: grid;
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
+      border: solid;
+      border-radius: 3px;
+      border-color: #a3fe84;
+  }
+
+  #upic {
+    width: 200px;
+    height: 200px;
+  }
+
+  #uinfo { 
+    text-align: left;
+    grid-column: 2 / 3;
+    margin-left: 20px;
+    border-color: #a3fe84;
+    background: linear-gradient(to bottom, #c6ebba, #7cefa6);
+  }
+    
+  .auditinfo {
+      display: grid;
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      border: solid;
+      border-radius: 3px;
+      border-color: #a3fe84;
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
+  }
+  #auditgraph {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    margin-top: 22px;
+  }
+  #auditxps {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 2 / 2;
+  }
+
+  #auditxpdone {
+    grid-row: 1 / 2;
+  }
+
+  #auditxpreceived {
+    grid-row: 4 / 4;
+  }
+
+  #auditratio {
+    grid-row: 3 / 3;
+    
+  }
+
+    
+  .levelinfo {
+      grid-column: 3 / 4;
+      grid-row: 1 / 2;
+      
+      border: solid;
+      border-radius: 3px;
+      border-color: #a3fe84;
+      background: linear-gradient(to bottom, #a3fe84, #7cefa6);
+  }
+    
+  .xpprogression {
+      grid-column: 1 / 4;
+      grid-row: 2 / 3;
+      
+      border: solid;
+      border-radius: 3px;
+      border-color: #a3fe84;
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
+  }
+    
+  .xpearnedbyproject {
+      grid-column: 1 / 4;
+      grid-row: 3 / 4;
+      
+      border: solid;
+      border-radius: 3px;
+      border-color: #a3fe84;
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
+  }
+    
+  .userinfo, .auditinfo, .levelinfo, .xpprogression, .xpearnedbyproject {
+      padding: 10px;
+      background-color: white;
+      color: #333;
+      font-size: 18px;
+      text-align: center;
+      border: solid;
+      border-radius: 3px;
+      border-color: #a3fe84;
+      background: linear-gradient(to bottom, #c6ebba, #7cefa6);
+  }
+
+    
+  #chart {
+    width: 300px;
+    height: 300px;
+  }
+
+  line {
+    stroke: brown;
+    stroke-width: 3px;
+  }
+
+  path {
+    stroke: blue;
+    stroke-width: 2px;
+    fill: none;
+  }
