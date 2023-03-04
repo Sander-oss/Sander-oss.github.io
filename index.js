@@ -379,7 +379,7 @@ const buildAuditRatios = () => {
   rect1.id = "rect1";
 
   const svg1 = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  svg1.setAttribute("width", "420");
+  svg1.setAttribute("width", "300");
   svg1.setAttribute("height", "42");
 
   const rect1Shape = document.createElementNS(
@@ -391,7 +391,7 @@ const buildAuditRatios = () => {
   rect1Shape.setAttribute("y", "10");
   rect1Shape.setAttribute("width", rect1Normalized);
   rect1Shape.setAttribute("height", "80");
-  rect1Shape.setAttribute("fill", "green");
+  rect1Shape.setAttribute("fill", "lightgreen");
 
   svg1.appendChild(rect1Shape);
   rect1.appendChild(svg1);
@@ -401,7 +401,7 @@ const buildAuditRatios = () => {
   rect2.id = "rect2";
 
   const svg2 = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  svg2.setAttribute("width", "420");
+  svg2.setAttribute("width", "300");
   svg2.setAttribute("height", "42");
 
   const rect2Shape = document.createElementNS(
