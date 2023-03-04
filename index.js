@@ -206,7 +206,7 @@ const buildNextLevelPieChart = () => {
   );
   let r = 42;
   circle.setAttribute("cx", "50");
-  circle.setAttribute("cy", "60");
+  circle.setAttribute("cy", "80");
   circle.setAttribute("r", r);
   circle.setAttribute("fill", "#b9eda7");
   circle.setAttribute("stroke", `green`);
@@ -219,7 +219,7 @@ const buildNextLevelPieChart = () => {
 
   const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
   text.setAttribute("x", "50");
-  text.setAttribute("y", "54");
+  text.setAttribute("y", "84");
   text.setAttribute("fill", "black");
   text.setAttribute("text-anchor", "middle");
   text.innerHTML = level;
