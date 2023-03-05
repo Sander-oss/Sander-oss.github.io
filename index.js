@@ -516,7 +516,7 @@ async function queryTransactions(userid, offset) {
             console.log(element.type);
         }
       });
-      auditRatio = auditsDoneForYouXp / auditsDoneByYouXp;
+      auditRatio = auditsDoneByYouXp / auditsDoneForYouXp;
       auditsXpDoneForSvg = auditsDoneForYouXp;
       auditsXpDoneBySvg = auditsDoneByYouXp;
     }
